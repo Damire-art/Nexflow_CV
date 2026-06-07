@@ -152,7 +152,7 @@ async function doScreen() {
   if (!title) { err.innerHTML = '<div class="err">Please enter a job title.</div>'; return; }
   if (!desc) { err.innerHTML = '<div class="err">Please enter job requirements.</div>'; return; }
   if (!cvs.length) { err.innerHTML = '<div class="err">Please add at least one CV first.</div>'; return; }
-  if (KEY === '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') { err.innerHTML = '<div class="err">Please add your API key to the code first.</div>'; return; }
+  if (KEY === 'YOUR_API_KEY_HERE') { err.innerHTML = '<div class="err">Please add your API key to the code first.</div>'; return; }
 
   document.getElementById('setup').style.display = 'none';
   document.getElementById('loading').style.display = 'block';
